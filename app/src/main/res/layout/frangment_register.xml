@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </ScrollView>
+
+
+    <EditText
+        android:id="@+id/register_user_id"
+        android:drawableLeft="@drawable/ic_action_name"
+        android:hint="@string/user_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/register_name"
+        android:drawableLeft="@drawable/name_icon"
+        android:hint="@string/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/register_password"
+        android:drawableLeft="@drawable/password"
+        android:hint="@string/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/register_age"
+        android:drawableLeft="@drawable/age_icon"
+        android:hint="@string/age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/register_acc_btn"
+        android:text="Register New Account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <FrameLayout
+        android:id="@+id/fragment_register"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></FrameLayout>
+
+</LinearLayout>
